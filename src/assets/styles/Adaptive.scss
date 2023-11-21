@@ -1,0 +1,239 @@
+@media screen and (max-width: 1440px) {
+    .App {
+
+        .container {
+            .WelcomePage {
+                .left {
+                    h1 {
+                        font-size: 26px;
+                    }
+                }
+
+                .right {
+                    .avatar {
+                        width: 300px;
+                        height: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .App {
+        .container {
+            .WelcomePage {
+                .left {
+                    h1 {
+                        font-size: 22px;
+                    }
+
+                    h2 {
+                        font-size: 20px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+
+                .right {
+                    .avatar {
+                        width: 250px;
+                        height: 250px;
+                    }
+                }
+            }
+
+            .Cases {
+                .cases-box {
+                    .case {
+                        .case-img {
+                            img {
+                                width: 450px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .App {
+        p {
+            font-size: 14px !important;
+        }
+
+        .Navigation {
+            .navBar {
+                div {
+                    p {
+                        font-size: 12px !important;
+                    }
+                }
+            }
+        }
+
+        .container {
+
+            .WelcomePage {
+                flex-direction: column;
+                justify-content: flex-start;
+
+                .left {
+                    width: 100%;
+
+                    h1 {
+                        font-size: 18px;
+                    }
+
+                    p {
+                        letter-spacing: normal;
+                    }
+                }
+
+                .right {
+                    width: 100%;
+                    margin-top: 50px;
+
+                    .avatar {
+                        width: 250px;
+                        height: 250px;
+                    }
+                }
+            }
+        }
+    }
+
+    .Skills {
+        .skills {
+            .my-skills {
+                flex-wrap: wrap;
+            }
+        }
+    }
+
+    .Cases {
+        .cases-box {
+            .case {
+                flex-direction: column;
+
+                .right {
+                    width: 100%;
+                    margin-top: 30px;
+                }
+
+                .left {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .Contacts {
+
+        .contact-bottom {
+            flex-direction: column;
+
+            .contacts {
+                max-width: 500px;
+                width: 100%;
+                margin: 50px auto;
+                text-align: center;
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .App {
+        display: block;
+
+        .wrapper {
+            width: 100%;
+
+            .Burger {
+                display: block;
+            }
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 100px 0 20px;
+
+            .WelcomePage {
+                flex-direction: column;
+                justify-content: flex-start;
+
+                .left {
+                    width: 100%;
+
+                    h1 {
+                        font-size: 26px;
+                    }
+                }
+
+                .right {
+                    margin-top: 120px;
+                    width: 100%;
+
+                    .avatar {
+                        width: 400px;
+                        height: 400px;
+                    }
+                }
+            }
+
+            .Skills {
+                .skills {
+                    .my-skills {
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+
+            .Cases {
+                .cases-box {
+                    .case {
+                        .case-img {
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .wrapper {
+            .Navigation {
+                display: none;
+            }
+        }
+    }
+
+    .Contacts {
+        p {
+            width: 100%;
+        }
+
+        .contact-bottom {
+            flex-direction: column;
+
+            form {
+                max-width: 100%;
+                width: 100%;
+            }
+
+            .contacts {
+                width: 100%;
+                margin: 50px auto;
+                text-align: center;
+            }
+        }
+    }
+}

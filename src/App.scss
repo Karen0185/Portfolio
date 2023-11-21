@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'Karla'; 
+	src: url('./assets/fonts/Karla/Karla-VariableFont_wght.ttf'); 
+}
+
+@font-face {
+	font-family: 'Karla extrabold'; 
+	src: url('./assets/fonts/Karla/static/Karla-ExtraBold.ttf'); 
+}
+
+
+.App {
+
+	font-family: 'Karla', sans-serif;
+	display: flex;
+	justify-content: flex-start;
+
+	.wrapper {
+		position: relative;
+		width: 200px;
+	}
+
+	h1 {
+		font-weight: 900;
+	}
+	.container {
+		max-width: 1170px;
+		width: 100%;
+		margin: 135px auto 0 auto;
+	}
+}

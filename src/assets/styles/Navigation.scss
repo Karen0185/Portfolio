@@ -1,0 +1,45 @@
+.Navigation {
+    position: sticky;
+    top: 135px;
+    margin-left: 50px;
+
+    .navBar {
+        width: 200px;
+        height: 500px;
+
+        div {
+
+            display: flex;
+            align-items: flex-start;
+
+            p {
+                order: 2;
+                font-size: 12px;
+                margin-top: 0px;
+                margin-left: 10px;
+                cursor: pointer;
+            }
+
+            .scrollbar {
+                display: flex;
+                flex-direction: column;
+
+                svg {
+                    height: 96px;
+
+
+                    rect {
+                        fill: #C9C6C6;
+                    }
+
+                    g {
+                        rect {
+                            fill: #333;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

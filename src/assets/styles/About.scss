@@ -1,0 +1,18 @@
+.About {
+    height: calc(100vh - 135px);
+
+    .bottom {
+
+        border-top: 2px solid #959595;
+        .getInTouch {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            width: 150px;
+            height: 40px;
+            cursor: pointer;
+        }
+    }
+}

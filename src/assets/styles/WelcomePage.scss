@@ -1,0 +1,27 @@
+.WelcomePage {
+    width: 100%;
+    height: calc(100vh - 135px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    .left {
+        width: 45%;
+    }
+
+    .right {
+        width: 45%;
+        
+        .avatar {
+            background-color: #333;
+            width: 415px;
+            height: 415px;
+            border-radius: 50%;
+        }
+    }
+
+    p {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+}
