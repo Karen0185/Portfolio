@@ -5,9 +5,9 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Cases from './components/Cases';
 import Contacts from './components/Contacts';
-import './App.scss';
-import './assets/styles/Adaptive.scss'
 import Burger from './components/Burger';
+import './assets/styles/App.scss';
+import './assets/styles/Adaptive.scss'
 
 
 function App() {
