@@ -159,6 +159,16 @@
         .wrapper {
             width: 100%;
 
+            .night-mode-trigger {
+                position: fixed;
+                top: 110px;
+                right: 20px;
+                cursor: pointer;
+                z-index: 100;
+                font-size: 30px;
+                width: 30px;
+            }
+
             .Burger {
                 display: block;
             }

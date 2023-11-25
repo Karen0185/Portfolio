@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
+import { IoIosSunny } from "react-icons/io";
+import { BsFillMoonStarsFill } from "react-icons/bs";
 import '../assets/styles/Burger.scss';
 
-const Burger = () => {
+const Burger = ({setIsNightMode, isNightMode}) => {
 
     const [isActiveBurger, setIsActiveBurger] = useState(false)
 
@@ -28,6 +30,13 @@ const Burger = () => {
                 <div className="line line1"></div>
                 <div className="line line2"></div>
                 <div className="line line3"></div>
+            </div>
+            <div className="night-mode-trigger" onClick={() => {
+                setIsNightMode(!isNightMode)
+            }}>
+               {
+                isNightMode ? <IoIosSunny /> : <BsFillMoonStarsFill />
+               } 
             </div>
             <div className="burger-menu">
                 <ul>

@@ -5,7 +5,7 @@
 
     .navBar {
         width: 200px;
-        height: 500px;
+        height: 450px;
 
         div {
 
@@ -42,4 +42,18 @@
 
         }
     }
+
+    .night-mode-trigger {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        background-color: #f6f6f6;
+        color: #333;
+    }
 }
+

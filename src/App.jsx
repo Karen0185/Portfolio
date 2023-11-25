@@ -8,6 +8,7 @@ import Contacts from './components/Contacts';
 import Burger from './components/Burger';
 import './assets/styles/App.scss';
 import './assets/styles/Adaptive.scss';
+import './assets/styles/NightMode.scss';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
   const [skillsMask, setSkillsMask] = useState(0);
   const [casesMask, setCasesMask] = useState(0);
   const [contactsMask, setContactMask] = useState(0);
+  const [isNightMode, setIsNightMode] = useState(false)
 
   const welcomePageRef = useRef(null);
   const aboutRef = useRef(null);
@@ -86,7 +88,6 @@ function App() {
       const totalDistance = contactsRef.current.clientHeight;
       const percentageRemaining = 100 - (remainingDistance / totalDistance) * 100;
       const clampedPercentage = Math.max(0, Math.min(percentageRemaining, 100));
-      console.log(clampedPercentage);
       setContactMask(clampedPercentage)
     };
 
@@ -98,10 +99,10 @@ function App() {
   }, [contactsRef]);
 
   return (
-    <div className="App">
+    <div className={isNightMode ? "App NightMode" : "App"}>
       <div className="wrapper">
-        <Navigation welcomeMask={welcomeMask} aboutMask={aboutMask} skillsMask={skillsMask} casesMask={casesMask} contactsMask={contactsMask} />
-        <Burger />
+        <Navigation welcomeMask={welcomeMask} aboutMask={aboutMask} skillsMask={skillsMask} casesMask={casesMask} contactsMask={contactsMask} setIsNightMode={setIsNightMode} isNightMode={isNightMode}/>
+        <Burger  setIsNightMode={setIsNightMode} isNightMode={isNightMode}/>
       </div>
         <div className="container">
           <WelcomePage welcomePageRef={welcomePageRef} />
