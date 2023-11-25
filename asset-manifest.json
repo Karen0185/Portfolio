@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Karen0185/Portfolio/static/css/main.6416ef28.css",
-    "main.js": "/Karen0185/Portfolio/static/js/main.b36cd32f.js",
+    "main.css": "/Karen0185/Portfolio/static/css/main.103f1e67.css",
+    "main.js": "/Karen0185/Portfolio/static/js/main.ebe940c7.js",
     "static/js/787.91c4a01c.chunk.js": "/Karen0185/Portfolio/static/js/787.91c4a01c.chunk.js",
     "static/media/kinomania.png": "/Karen0185/Portfolio/static/media/kinomania.9e4264c17e48f7669efb.png",
     "static/media/notes.png": "/Karen0185/Portfolio/static/media/notes.03248ccceada53f3c6e6.png",
@@ -9,12 +9,12 @@
     "static/media/Karla-VariableFont_wght.ttf": "/Karen0185/Portfolio/static/media/Karla-VariableFont_wght.1d835e644ae4118a28fc.ttf",
     "static/media/Karla-ExtraBold.ttf": "/Karen0185/Portfolio/static/media/Karla-ExtraBold.122ef3399f6dfa1c2974.ttf",
     "index.html": "/Karen0185/Portfolio/index.html",
-    "main.6416ef28.css.map": "/Karen0185/Portfolio/static/css/main.6416ef28.css.map",
-    "main.b36cd32f.js.map": "/Karen0185/Portfolio/static/js/main.b36cd32f.js.map",
+    "main.103f1e67.css.map": "/Karen0185/Portfolio/static/css/main.103f1e67.css.map",
+    "main.ebe940c7.js.map": "/Karen0185/Portfolio/static/js/main.ebe940c7.js.map",
     "787.91c4a01c.chunk.js.map": "/Karen0185/Portfolio/static/js/787.91c4a01c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6416ef28.css",
-    "static/js/main.b36cd32f.js"
+    "static/css/main.103f1e67.css",
+    "static/js/main.ebe940c7.js"
   ]
 }
