@@ -11,6 +11,8 @@
 
     .right {
         width: 45%;
+        display: flex;
+        justify-content: flex-end;
         
         .avatar {
             background-color: #333;
@@ -22,6 +24,5 @@
 
     p {
         font-size: 15px;
-        letter-spacing: 1px;
     }
 }

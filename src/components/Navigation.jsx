@@ -6,7 +6,7 @@ const Navigation = ({ welcomeMask, aboutMask, skillsMask, casesMask, contactsMas
 
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);
-        const offset = 135;
+        const offset = 125;
         const targetOffset = section.offsetTop - offset;
         if (section) {
             window.scrollTo({

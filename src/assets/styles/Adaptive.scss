@@ -2,6 +2,7 @@
     .App {
 
         .container {
+            padding-right: 40px;
             .WelcomePage {
                 .left {
                     h1 {
@@ -98,6 +99,8 @@
                 .right {
                     width: 100%;
                     margin-top: 50px;
+                    display: flex;
+                    justify-content: flex-start;
 
                     .avatar {
                         width: 250px;
