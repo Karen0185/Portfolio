@@ -8,7 +8,6 @@ import Contacts from './components/Contacts';
 import Burger from './components/Burger';
 import './assets/styles/App.scss';
 import './assets/styles/Adaptive.scss';
-import './assets/styles/NightMode.scss';
 
 
 function App() {

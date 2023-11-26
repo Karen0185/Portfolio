@@ -31,13 +31,6 @@ const Burger = ({setIsNightMode, isNightMode}) => {
                 <div className="line line2"></div>
                 <div className="line line3"></div>
             </div>
-            <div className="night-mode-trigger" onClick={() => {
-                setIsNightMode(!isNightMode)
-            }}>
-               {
-                isNightMode ? <IoIosSunny /> : <BsFillMoonStarsFill />
-               } 
-            </div>
             <div className="burger-menu">
                 <ul>
                     <li onClick={() => scrollToSection('welcomePage')}>Карен Арутюнян</li>

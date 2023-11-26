@@ -1,6 +1,3 @@
-import { IoIosSunny } from "react-icons/io";
-import { BsFillMoonStarsFill } from "react-icons/bs";
-
 import '../assets/styles/Navigation.scss';
 
 const Navigation = ({ welcomeMask, aboutMask, skillsMask, casesMask, contactsMask, setIsNightMode, isNightMode }) => {
@@ -95,13 +92,6 @@ const Navigation = ({ welcomeMask, aboutMask, skillsMask, casesMask, contactsMas
                         </svg>
                     </div>
                 </div>
-            </div>
-            <div className="night-mode-trigger" onClick={() => {
-                setIsNightMode(!isNightMode)
-            }}>
-               {
-                isNightMode ? <IoIosSunny /> : <BsFillMoonStarsFill />
-               } 
             </div>
         </div>
     );
