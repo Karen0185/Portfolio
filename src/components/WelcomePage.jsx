@@ -11,7 +11,9 @@ const WelcomePage = ({ welcomePageRef }) => {
                 <p>Всем привет! <br />Я Карен, Front-end разработчик. Главная характеристика моей работы, которую я мог бы дать, была проста: Выполняйте. Быстро Я ищу интересные проекты, и это мое портфолио.</p>
             </div>
             <div className="right">
-                <div className="avatar"></div>
+                <div className="avatar">
+                    <img src="" alt="" />
+                </div>
             </div>
         </div>
     );

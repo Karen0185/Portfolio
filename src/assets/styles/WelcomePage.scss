@@ -13,12 +13,14 @@
         width: 45%;
         display: flex;
         justify-content: flex-end;
-        
+
         .avatar {
-            background-color: #333;
-            width: 415px;
-            height: 415px;
-            border-radius: 50%;
+            img {
+                background-color: #333;
+                width: 415px;
+                height: 415px;
+                border-radius: 50%;
+            }
         }
     }
 

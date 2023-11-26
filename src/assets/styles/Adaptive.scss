@@ -11,7 +11,7 @@
                 }
 
                 .right {
-                    .avatar {
+                    .avatar img {
                         width: 300px;
                         height: 300px;
                     }
@@ -40,7 +40,7 @@
                 }
 
                 .right {
-                    .avatar {
+                    .avatar img {
                         width: 250px;
                         height: 250px;
                     }
@@ -102,7 +102,7 @@
                     display: flex;
                     justify-content: flex-start;
 
-                    .avatar {
+                    .avatar img {
                         width: 250px;
                         height: 250px;
                     }
@@ -194,7 +194,7 @@
                     margin-top: 120px;
                     width: 100%;
 
-                    .avatar {
+                    .avatar img {
                         width: 400px;
                         height: 400px;
                     }
@@ -250,3 +250,126 @@
         }
     }
 }
+
+@media screen and (max-width: 520px) {
+    .App {
+        p {
+            font-size: 13px !important;
+        }
+        .wrapper {
+            .Burger {
+                &.active {
+                    .burgerIcon {
+                        .line1 {
+                            transform: rotate(55deg) translateY(6px) translateX(5px); 
+                        }
+
+                        .line3 {
+                            transform: rotate(-55deg) translateY(-6px) translateX(5px); 
+                        }
+                    }
+                }
+                .burgerIcon {
+                    right: 10px;
+                    .line {
+                        width: 25px;
+                        height: 2px;
+                    }
+                }
+                
+                .burger-menu {
+                    ul {
+                        padding: 0;
+                    }
+                }
+            }
+        }
+        .container {
+            .WelcomePage {
+                .right {
+                    .avatar img {
+                        width: 320px;
+                        height: 320px;
+                    }
+                }
+            }
+
+            .Cases {
+                .cases-box {
+                    .case {
+                        .right {
+                            .case-description {
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .Contacts {
+                font-size: 13px;
+            }
+            
+        }
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .App {
+        .container {
+            .WelcomePage {
+                .right {
+                    .avatar img {
+                        width: 300px;
+                        height: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .App {
+        .container {
+            .WelcomePage {
+                .right {
+                    .avatar img {
+                        width: 250px;
+                        height: 250px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-height: 780px) {
+    .App {
+        .container {
+            .WelcomePage {
+               .right {
+                margin-top: 10px;
+               }
+            }
+
+            .Skills {
+                height: calc(100vh + 135px);
+            }
+        }
+    }
+}
+
+@media screen and (max-height: 720px) {
+    .App {
+        .container {
+            .WelcomePage,
+            .About, 
+            .Skills,
+            .Cases,
+            .Contacts {
+                height: max-content;
+            }
+        }
+    }
+} 
