@@ -3,6 +3,7 @@
 
     .my-skills {
         margin-top: 50px;
+        margin-left: -15px;
     }
 
     .my-skills,
@@ -15,15 +16,13 @@
 
         .my-skills-forLayot {
             margin-top: 20px;
+            margin-left: -15px;
         }
 
         .skills-item {
             transition: .3s;
             margin: 0 15px;
 
-            &:first-child {
-                margin-left: 0;
-            }
             &:hover {
                 .item-icon {
                     background-color: #282828;

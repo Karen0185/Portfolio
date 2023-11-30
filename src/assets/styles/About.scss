@@ -1,6 +1,11 @@
 .About {
     height: calc(100vh - 135px);
 
+    .top,
+    .bottom {
+        font-size: 15px;
+    }
+
     .bottom {
 
         border-top: 2px solid #959595;

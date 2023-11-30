@@ -21,14 +21,14 @@ const Contacts = ({contactsRef}) => {
             </div>
             <div className="contact-bottom">
                 <form action="">
-                    <input type="text" placeholder='What is your name?' />
-                    <input type="text" placeholder='Your email:' />
+                    <input type="text" placeholder='Как вас зовут?' />
+                    <input type="text" placeholder='Ваш Е-Майл:' />
                     <textarea
                         value={text}
                         onChange={handleChange}
                         style={textareaStyle}
-                        placeholder='A few words about the project'></textarea>
-                    <button type="submit" className='send'>Send</button>
+                        placeholder='Несколько слов о проекте'></textarea>
+                    <button type="submit" className='send'>Отправить</button>
                 </form>
                 <div className="contacts">
                     <div className="email">kharutyunyan6@gmail.com</div>

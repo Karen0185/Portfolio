@@ -9,8 +9,9 @@ import {
     SiMui,
     SiTailwindcss,
     SiAdobephotoshop,
-    SiAdobexd } from 'react-icons/si';
-import { FaBootstrap } from 'react-icons/fa'
+    SiAdobexd,
+    SiRedux } from 'react-icons/si';
+import { FaBootstrap, FaGitAlt } from 'react-icons/fa'
 import '../assets/styles/Skills.scss';
 
 const Skills = ({skillsRef}) => {
@@ -23,14 +24,6 @@ const Skills = ({skillsRef}) => {
         {
             name: 'CSS 3',
             icon: <DiCss3 />
-        },
-        {
-            name: 'JavaScript',
-            icon: <BiLogoJavascript />
-        },
-        {
-            name: 'React Js',
-            icon: <BiLogoReact />
         },
         {
             name: 'SASS',
@@ -47,6 +40,22 @@ const Skills = ({skillsRef}) => {
         {
             name: 'Tailwind CSS',
             icon: <SiTailwindcss />
+        },
+        {
+            name: 'JavaScript',
+            icon: <BiLogoJavascript />
+        },
+        {
+            name: 'React Js',
+            icon: <BiLogoReact />
+        },
+        {
+            name: 'Redux',
+            icon: <SiRedux />
+        },
+        {
+            name: 'Git',
+            icon: <FaGitAlt />
         }
     ]
 

@@ -13,7 +13,7 @@ const Burger = ({setIsNightMode, isNightMode}) => {
 
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);
-        const offset = 70;
+        const offset = 50;
         const targetOffset = section.offsetTop - offset;
         handleClick()
         if (section) {
