@@ -15,11 +15,22 @@
         justify-content: flex-end;
 
         .avatar {
+            background-color: #333;
+            width: 415px;
+            height: 415px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                padding: 30px;
+                text-align: center;
+                color: #fff;
+            }
+
             img {
-                background-color: #333;
-                width: 415px;
-                height: 415px;
-                border-radius: 50%;
+                width: 100%;
             }
         }
     }
