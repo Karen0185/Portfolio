@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c239976d.css",
+    "main.css": "/Portfolio/static/css/main.7b376b26.css",
     "main.js": "/Portfolio/static/js/main.7ba2b3ee.js",
     "static/js/787.91c4a01c.chunk.js": "/Portfolio/static/js/787.91c4a01c.chunk.js",
     "static/media/kinomania.png": "/Portfolio/static/media/kinomania.9e4264c17e48f7669efb.png",
@@ -10,12 +10,12 @@
     "static/media/Karla-VariableFont_wght.ttf": "/Portfolio/static/media/Karla-VariableFont_wght.1d835e644ae4118a28fc.ttf",
     "static/media/Karla-ExtraBold.ttf": "/Portfolio/static/media/Karla-ExtraBold.122ef3399f6dfa1c2974.ttf",
     "index.html": "/Portfolio/index.html",
-    "main.c239976d.css.map": "/Portfolio/static/css/main.c239976d.css.map",
+    "main.7b376b26.css.map": "/Portfolio/static/css/main.7b376b26.css.map",
     "main.7ba2b3ee.js.map": "/Portfolio/static/js/main.7ba2b3ee.js.map",
     "787.91c4a01c.chunk.js.map": "/Portfolio/static/js/787.91c4a01c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c239976d.css",
+    "static/css/main.7b376b26.css",
     "static/js/main.7ba2b3ee.js"
   ]
 }
