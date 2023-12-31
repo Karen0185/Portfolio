@@ -1,11 +1,19 @@
 import notesImg from '../assets/images/notes.png'
 import weatherImg from '../assets/images/weather.png'
 import kinomaniaImg from '../assets/images/kinomania.png'
+import anticImg from '../assets/images/AnticImg.jpg'
 import '../assets/styles/Cases.scss'
 
 const Cases = ({casesRef}) => {
 
     const cases = [
+        {
+            title: 'Сайт мебели',
+            img: anticImg,
+            descrition: 'Добро пожаловать в мир утонченного стиля и непреходящей элегантности с "Antic" - вашим идеальным партнером в создании уюта и изысканности в доме. Наш ассортимент мебели объединяет в себе изысканный дизайн и высокое качество, подчеркивая вашу индивидуальность и придавая вашему пространству неповторимый характер. Откройте для себя коллекцию "Antic" и превратите свой дом в истинное произведение искусства.',
+            link: 'https://karen0185.github.io/Antic/',
+            github: 'https://github.com/Karen0185/Antic'
+        },
         {
             title: 'Заметки',
             img: notesImg,
