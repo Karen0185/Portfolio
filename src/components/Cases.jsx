@@ -3,10 +3,18 @@ import weatherImg from '../assets/images/weather.png'
 import kinomaniaImg from '../assets/images/kinomania.png'
 import anticImg from '../assets/images/AnticImg.jpg'
 import '../assets/styles/Cases.scss'
+import starupImg from '../assets/images/StartupLendingImg.png'
 
 const Cases = ({casesRef}) => {
 
     const cases = [
+        {
+            title: 'Стартап',
+            img: starupImg,
+            descrition: 'Добро пожаловать на наш лендинг! Мы - ваш надежный партнер в мире стартапов. Наши эксперты помогут вам воплотить в жизнь вашу уникальную идею, предоставляя полный спектр услуг: от стратегического консультирования до разработки инновационных решений. Ускорьте свой бизнес с нами, встречайте будущее уже сегодня!',
+            link: 'https://karen0185.github.io/startup-template/',
+            github: 'https://github.com/Karen0185/startup-template',
+        },
         {
             title: 'Сайт мебели',
             img: anticImg,
