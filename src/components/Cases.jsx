@@ -2,12 +2,20 @@ import notesImg from '../assets/images/notes.png'
 import weatherImg from '../assets/images/weather.png'
 import kinomaniaImg from '../assets/images/kinomania.png'
 import anticImg from '../assets/images/AnticImg.jpg'
-import '../assets/styles/Cases.scss'
 import starupImg from '../assets/images/StartupLendingImg.png'
+import yodoraImg from '../assets/images/yodora.png'
+import '../assets/styles/Cases.scss'
 
 const Cases = ({casesRef}) => {
 
     const cases = [
+        {
+            title: 'Yodora',
+            img: yodoraImg,
+            descrition: 'Yodora - ваш проводник в мир событий! На нашем сайте вы найдете захватывающие репортажи о главных событиях, трендах и людях. Мы исследуем, анализируем и предоставляем увлекательные истории, чтобы вы всегда были в курсе происходящего. Погружайтесь в увлекательный поток информации с Yodora!',
+            link: 'https://karen0185.github.io/yodora/',
+            github: 'https://github.com/Karen0185/yodora'
+        },
         {
             title: 'Стартап',
             img: starupImg,
